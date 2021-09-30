@@ -1,18 +1,8 @@
-/*
-Red Lantern redesign
-HFWD Chapter 1
-*/
-
-/*
-The font size here is set to 62.5% so that
-1em = 10px. This makes adjusting our typography
-a little easier
-*/
 body {
 	margin: 0 auto;
 	width: 800px;
 	padding: 0;
-	background: #6e0427 url('../images/body_bg.gif') repeat-x top;
+	background: #ffffff ;
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
 	color: #333;
@@ -24,8 +14,8 @@ h1, h2, p, ul, li {
 }
 
 p {
-	font-size: 1.4em;
-	line-height: 1.4em;
+	font-size: 1.5em;
+	line-height: 1.5em;
 }
 
 ul {
@@ -33,12 +23,12 @@ ul {
 }
 
 a:link {
-	color: #333;
+	color: rgb(0, 0, 0);
 	background: #eee;
 }
 a:visited {
-	color: #ff0000;
-	background: rgb(55, 0, 207);
+	color: #020202;
+	background: rgb(255, 255, 255);
 }
 
 /* This rule adds a nice style to our ampersands */
@@ -53,7 +43,7 @@ span.amp {
 	margin: 0 auto ;
 	margin-top: 20px;
 	width: 800px;
-	color: #fff;
+	color: rgb(0, 0, 0);
 }
 
 #masthead h1 {
@@ -62,18 +52,18 @@ span.amp {
 
 #nav {
 	float: right;
-	margin: 50px 10px 0 0;
+	margin: 30px 10px 0 0;
 	font-size: 1.4em;
 }
 
  
 #nav li {
 	display: inline;
-	margin: 0 0 0 20px;
+	margin: 0 0 0 25px;
 }
 
 #nav li a {
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 	background: none;
 }
@@ -89,11 +79,11 @@ the layout
 	padding: 10px;
 	width: 780px;
 	background: #fff;
-	border: 10px solid #5c0505;
+	border: 10px solid #ffffff;
 }
 
 #header img {
-	border: 10px solid #ccc;
+	border: 10px solid rgb(243, 0, 0);
 }
 
 #header h1 {
@@ -101,13 +91,13 @@ the layout
 	margin: 10px 0 0 0;
 	padding: 10px;
 	text-align: center;
-	background: url('../images/tagline_bg.gif') repeat-x;
+	
 }
 
 #content, #sidebar {
 	width: 360px;
 	margin: 20px 0 20px 0;
-	padding: 10px;
+	padding: 20px;
 }
 
 #content {
@@ -152,9 +142,13 @@ the layout
 
 #footer {
 	clear: both;
-	background: #eee;
+	background: rgb(0, 0, 0);
 	padding: 10px;
-	border-top: 2px solid #ddd;
+	border-top: 2px solid rgb(0, 0, 0);
 	text-align: center;
-	color: #777;
+	color: rgb(255, 255, 255);
+
+
+
+    
 }
